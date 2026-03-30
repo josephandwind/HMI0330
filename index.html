@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <div id="emoji" style="front-size:8rem">
+    <h1>👋 Hello World!</h1>
+    <p>are you ok?</p>
+     <button onclick="closePapup()">I'm ok.</button>
+      </div>
+    <script>setTimeout(function(){
+        document.getElementById('propup').hidden=false;
+      },3000);
+      function closePopup(){
+        document.getElementById("popup").hidden=true;
+        document.getElementById("popup").textContent='😀'
+        
+      }
+    </script>
+   </body>
+</html>
